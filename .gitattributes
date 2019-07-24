@@ -1,0 +1,3 @@
+*.sh eol=lf
+*.ttf filter=lfs diff=lfs merge=lfs binary
+*.otf filter=lfs diff=lfs merge=lfs binary

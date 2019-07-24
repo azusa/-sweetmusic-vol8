@@ -1,0 +1,15 @@
+image:
+  name: fieldnotesjp.azurecr.io/pandoc-viola-savepdf-ja:2.6.1
+  username: $USERNAME
+  password: $PASSWORD
+clone:
+  lfs: true
+
+pipelines:
+  default:
+      - step:
+          script:
+            - rm -rf target
+            - mkdir -p target
+            - bash ./build.sh
+            - bash ./deploy.sh

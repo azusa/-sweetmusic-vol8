@@ -1,0 +1,41 @@
+
+# 参考文献
+
+---
+fontsize: 16pt
+link-citations: true
+
+references:
+- id: Kaiser1989
+  author:
+  - family: Kaiser
+    given: Gail E
+  - family: Perry
+    given: Dewayne E
+  - family: Chell
+    given: SWilliam M
+  title: 'Infuse: fusing integration test management with change management'
+  URL: https://www.computer.org/csdl/proceedings/cmpsac/1989/1964/00/00065147.pdf
+  issued:
+    year: 1989
+- id: Booch1994
+  author:
+  - family: Grady
+    given: Booch
+  title: 'Object-oriented analysis and design with applications (2nd ed.)'
+  issued:
+    year: 1994
+- id: Beck2005
+  title: 'エクストリームプログラミング'
+  author:
+  - family: Beck
+    given: Kent
+  - family: Andres
+    given: Cynthia
+  issued:
+    year: 2015
+  translator:
+  - family: 角
+    given: 征典
+---
+
